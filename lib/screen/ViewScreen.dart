@@ -85,7 +85,8 @@ class _ViewScreenState extends State<ViewScreen> {
                 ),
               ],
             ),
-          ]),
+          ]
+          ),
       body: SafeArea(
         child: FutureBuilder(
           future: allproducts,
